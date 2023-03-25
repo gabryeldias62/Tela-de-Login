@@ -1,0 +1,111 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    box-sizing: border-box
+    }
+    
+    body{
+        background-color: rgb(0, 4, 5);
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+}
+
+.login{
+    color: #b11edd;
+           align-items: center;
+           width: auto;
+           position: relative;
+           bottom: 10%;
+}
+   
+
+    
+.botao {
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        position:relative ;
+        top: 7%;
+      }
+      
+      .botao:hover {
+        background-color: #b11edd;
+        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
+      }
+      
+      button:active {
+        transform: translateY(-1px);
+      }
+   
+   
+   .input:active {
+    box-shadow: 2px 2px 15px #8707ff inset;
+   }
+   
+   .email{
+    color: #b11edd;
+    align-items: center;
+    text-align: center ;
+    position: relative;
+    top: 20px;
+    right: 198px;
+    top: 6%;
+   }
+
+
+   .campo {
+    color: #b11edd;
+    border: 2px solid #b11edd;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    max-width: 300px;
+
+
+
+}
+   
+   .input:active {
+    box-shadow: 2px 2px 15px #8707ff inset;
+   }
+   
+
+   .campos{
+    color: #b11edd;
+    border: 2px solid #b11edd;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    max-width: 300px;
+   }
+
+   .senha{
+    color: #b11edd;
+    align-items: center;
+    text-align: center ;
+    position: relative;
+    top: 20px;
+    right: 198px;
+    top: 6%;
+   }
+
+
